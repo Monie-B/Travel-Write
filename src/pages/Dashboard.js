@@ -1,12 +1,15 @@
-import React from 'react';
-import '../css/Dashboard.css'
+import { NavBar } from '../components/NavBar'
+import '../css/dashboard.css'
 
 const Dashboard = () => {
   return (
     <div className='dashbg'>
-        <h1>
-            Welcome to Your Dashboard
-        </h1>
+        <div>
+            <h1 className='dash-title'>
+                Welcome to Your Dashboard
+            </h1>
+        </div>
+        <NavBar />
     </div>
   )
 }

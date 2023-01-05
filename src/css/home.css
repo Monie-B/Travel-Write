@@ -1,0 +1,11 @@
+.homebg {
+    background-color: khaki;
+    min-height: 100vh;
+    background-image: url('https://cococollection.com/images/uploads/blog/CBH_ISLAND_CBH_Cover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-title {
+    margin-top: 0;
+}

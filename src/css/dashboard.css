@@ -1,3 +1,8 @@
 .dashbg {
     background-color: darksalmon;
+    min-height: 100vh;
+}
+
+.dash-title {
+    margin-top: 0;
 }

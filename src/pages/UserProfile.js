@@ -1,12 +1,13 @@
-import React from 'react';
+import { NavBar } from '../components/NavBar'
 import '../css/UserProfile.css'
 
 const UserProfile = (props) => {
   return (
     <div className='userbg'>
         <h1>
-            Welcome to Your UserProfile
+            <h1>Welcome to Your User Profile</h1>
         </h1>
+        <NavBar />
     </div>
   )
 }
