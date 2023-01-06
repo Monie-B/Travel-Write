@@ -1,11 +1,58 @@
 .homebg {
     background-color: khaki;
     min-height: 100vh;
-    background-image: url('https://cococollection.com/images/uploads/blog/CBH_ISLAND_CBH_Cover.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .home-title {
     margin-top: 0;
+}
+
+.home-resort {
+    /* background-image: url('https://www.kcrw.com/join/join-kcrw-images/caribbean-background-banner-1.jpg'); */
+    /* height: 30%; */
+    width: 100%;
+}
+
+.middleTitleTxt {
+    font-size: 3em;
+}
+
+.cont1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    /* background-color: rgb(37, 179, 171); */
+    /* margin-top: 300px; */
+}
+
+.txtcont1 {
+    display: inline-block;
+    width: 40%;
+    background-color: rgb(37, 179, 171);
+    border-radius: 20px;
+}
+
+.txtcont2 {
+    display: inline-block;
+    width: 40%;
+    margin-left: 10%;
+    background-color: rgb(37, 179, 171);
+    vertical-align: top;
+    border-radius: 20px;
 }
