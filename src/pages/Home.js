@@ -1,15 +1,12 @@
 import React from 'react'
-import { NavBar } from '../components/NavBar'
+import { Header } from '../components/Header'
 import '../css/home.css'
 
 const Home = () => {
   return (
     <div className='homebg'>
         <div>
-            {/* <h1 className='home-title centered'>
-                Welcome to Travel Write!
-            </h1> */}
-            <NavBar />
+            <Header />
         </div>
         <div className='cont1'>
             <img src='https://www.kcrw.com/join/join-kcrw-images/caribbean-background-banner-1.jpg' alt='Resort' className='home-resort' />
@@ -24,15 +21,15 @@ const Home = () => {
         </div>
         <div className='container'>
             <div className='txtcont1'>
-                <h2>
+                <h2 className='home-h2'>
                     Your Experience
                 </h2>
                 <p>
-                    Travel Write is all about YOUR experience! Your travel experience will help other users get insight on things like fun iteneraries, was the food good, whether the location has good night life nearby, if you experienced theft or even racism, etc. By simply detailing and/or rating your experience during your travels, you can help someone else determine if that kind of trip would be a good fit for them! Another benefit: a space to save your travel memories! 
+                    Travel Write is all about YOUR experience! Your travel experience will help other users get insight on things like fun iteneraries, if the food was good, whether the location has good night life nearby, if you experienced theft or even racism, etc. By simply detailing and/or rating your experience during your travels, you can help someone else determine if that kind of trip would be a good fit for them! Another benefit: a space to save your travel memories! 
                 </p>
             </div>
             <div className='txtcont2'>
-                <h2>
+                <h2 className='home-h2'>
                     Others' Experience
                 </h2>
                 <p>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script:wght@400;700&family=Delius+Swash+Caps&family=Farsan&family=Kalam:wght@300;400&family=Londrina+Shadow&family=Oooh+Baby&family=Poller+One&family=Rancho&family=Satisfy&display=swap');
+
+
 .homebg {
     background-color: khaki;
     min-height: 100vh;
@@ -17,6 +20,7 @@
 
 .middleTitleTxt {
     font-size: 3em;
+    font-family: 'Oooh Baby', cursive;
 }
 
 .cont1 {
@@ -46,6 +50,8 @@
     width: 40%;
     background-color: rgb(37, 179, 171);
     border-radius: 20px;
+    box-shadow: 0px 5px 18px 20px rgb(37, 179, 171);
+    font-size: large;
 }
 
 .txtcont2 {
@@ -55,4 +61,10 @@
     background-color: rgb(37, 179, 171);
     vertical-align: top;
     border-radius: 20px;
+    box-shadow: 0px 5px 18px 20px rgb(37, 179, 171);
+    font-size: large;
+}
+
+.home-h2 {
+    font-family: 'Poller One', cursive;
 }

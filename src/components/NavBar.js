@@ -5,9 +5,9 @@ import '../css/navbar.css'
 export const NavBar = () => {
   return (
     <div className='nav'>
-        <Link to="/">Home</Link>
-        <Link to="/Dashboard">Dashboard</Link>
-        <Link to="/UserProfile">User Profile</Link>
+        <Link to="/"><button>Home</button></Link>
+        <Link to="/Dashboard"><button>Dashboard</button></Link>
+        <Link to="/UserProfile"><button>User Profile</button></Link>
     </div>
   )
 }
