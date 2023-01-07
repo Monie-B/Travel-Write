@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script:wght@400;700&family=Delius+Swash+Caps&family=Farsan&family=Kalam:wght@300;400&family=Londrina+Shadow&family=Oooh+Baby&family=Poller+One&family=Rancho&family=Satisfy&display=swap');
+
+
+
 .dashbg {
     background-color: khaki;
     min-height: 100vh;
 }
 
 .dash-title {
-    margin-top: 0;
+    margin-top: 40px;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 50px;
 }

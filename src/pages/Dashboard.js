@@ -1,4 +1,5 @@
 import { NavBar } from '../components/NavBar'
+import SideNav from '../components/SideNav'
 import '../css/dashboard.css'
 
 const Dashboard = () => {
@@ -9,6 +10,7 @@ const Dashboard = () => {
             <h1 className='dash-title'>
                 Add a New Travel Experience
             </h1>
+            <SideNav />
         </div>
     </div>
   )
