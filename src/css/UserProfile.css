@@ -7,24 +7,35 @@
 
 
 .user-header {
-    background-color: rgb(153, 245, 214);
-    margin-top: 50px;
-    width: 75%;
+    /* background-color: rgb(153, 245, 214); */
+    margin-top: 70px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(37, 179, 171);
+    box-shadow: 0px 5px 18px 20px rgb(37, 179, 171);
+    border-radius: 40px;
 }
 
 .pic-section {
     display: inline-block;
-    background-color: darksalmon;
+    /* background-color: white; */
     width: 25%;
+    height: 200px;
     border-radius: 100px;
+    margin-right: 20px;
 }
+
+/* .pic-section img {
+    width: 120%;
+} */
 
 .user-detail-section {
     display: inline-block;
-    width: 60%;
+    width: 50%;
     vertical-align: top;
+    margin-left: 10px;
+    /* background-color: orchid; */
 }
 
 .user-detail-section button {
@@ -37,3 +48,23 @@
 .msgbtn {
     margin-left: 30px;
 }
+
+.user-detail-section h3, p {
+    margin: 8px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 740px) {
+    .pic-section {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+    }
+    .user-detail-section {
+        width: 100%;
+    }
+}
+

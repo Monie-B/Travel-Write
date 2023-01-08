@@ -4,3 +4,15 @@
     margin-bottom: 70px;
     box-shadow: 0px 5px 15px 20px rgb(82, 168, 218);
 }
+
+@media screen and (max-width: 560px) {
+    .headerbg {
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .headerbg {
+        height: 165px;
+    }
+}
