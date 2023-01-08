@@ -3,12 +3,17 @@ import '../css/UserProfile.css'
 
 const UserProfile = (props) => {
   return (
-    <div className='userbg'>
-        <h1>
-            <h1>Welcome to Your User Profile</h1>
-        </h1>
-        <NavBar />
-    </div>
+    <>
+      <NavBar />
+        <div className='user-header'>
+          <h1>Space for the Username</h1>
+          <div className='pic-section'>This space for user Avatar</div>
+          <div className='user-detail-section'>
+            <button>Follow</button>
+            <button className='msgbtn'>Message</button>
+          </div>
+        </div>
+    </>
   )
 }
 
