@@ -8,10 +8,6 @@
     background-size: contain;
 }
 
-.home-title {
-    margin-top: 0;
-}
-
 .home-resort {
     width: 100%;
 }
@@ -35,6 +31,7 @@
     color: white;
     font-size: 4em;
     font-weight: bold;
+    width: 100%;
 }
 
 .container {
@@ -65,4 +62,27 @@
 
 .home-h2 {
     font-family: 'Poller One', cursive;
+}
+
+
+@media screen and (max-width: 548px) {
+    .centered {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    .txtcont1 {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .txtcont2 {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
 }
