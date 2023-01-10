@@ -1,4 +1,5 @@
 import { NavBar } from '../components/NavBar'
+import NewTravelForm from '../components/NewTravelForm'
 import SideNav from '../components/SideNav'
 import '../css/dashboard.css'
 
@@ -12,6 +13,7 @@ const Dashboard = () => {
             </h1>
             <SideNav />
         </div>
+        <NewTravelForm />
     </div>
   )
 }

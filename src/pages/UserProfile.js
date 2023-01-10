@@ -19,6 +19,13 @@ const UserProfile = (props) => {
               <p>User bio/description goes here. Hello everyone! Welcome to my travel page. Message me if you have any further questions!</p>
           </div>
         </div>
+        <main>
+          <hr/>
+            <h1>
+              Main content goes here
+            </h1>
+          </main>
+
     </>
   )
 }
