@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script:wght@400;700&family=Delius+Swash+Caps&family=Farsan&family=Kalam:wght@300;400&family=Londrina+Shadow&family=Oooh+Baby&family=Poller+One&family=Rancho&family=Satisfy&display=swap');
 
 
-.homebg {
-    background-color: khaki;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .home-resort {
     width: 100%;
 }
@@ -64,6 +57,9 @@
     font-family: 'Poller One', cursive;
 }
 
+.bottomTxt {
+    margin-top: 55px;
+}
 
 @media screen and (max-width: 548px) {
     .centered {

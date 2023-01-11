@@ -1,10 +1,11 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import { Header } from '../components/Header'
 import '../css/home.css'
 
 const Home = () => {
   return (
-    <div className='homebg'>
+    <div>
         <div>
             <Header />
         </div>
@@ -36,7 +37,13 @@ const Home = () => {
                     Travel Write is a community for bridging travelers. You can view other user's travel experiences as well! Not all destinations have been safe for all groups of people. Travel Write is great for being prepared on what to expect or even what to avoid. Whether you have kids or you're traveling alone, its best to know as much as possible! Travel Write is also great for helping you decide on what to do. Check out someone else's itenerary for ideas on what to do in that location!
                 </p>
             </div>
+            <div>
+                <h1 className='middleTitleTxt bottomTxt'>
+                    Enjoy an app that's dedicated to blog style user reviews!
+                </h1>
+            </div>
         </div>
+        <Footer />
     </div>
   )
 }
