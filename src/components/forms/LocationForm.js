@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/newtravelform.css'
+import '../../css/newtravelform.css'
 
-const NewTravelForm = () => {
+const LocationForm = () => {
   return (
     <>
         <form className='formbg'>
@@ -27,4 +27,4 @@ const NewTravelForm = () => {
   )
 }
 
-export default NewTravelForm
+export default LocationForm
