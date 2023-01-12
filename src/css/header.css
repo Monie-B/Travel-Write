@@ -1,8 +1,8 @@
 .headerbg {
-    background-color: rgb(82, 168, 218);
+    background-color: rgb(90, 206, 201);
     height: 100px;
     margin-bottom: 70px;
-    box-shadow: 0px 5px 15px 20px rgb(82, 168, 218);
+    box-shadow: 0px 5px 15px 20px rgb(90, 206, 201);
 }
 
 @media screen and (max-width: 560px) {

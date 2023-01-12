@@ -27,39 +27,85 @@
     width: 100%;
 }
 
-.container {
+/* Beginning of the first paragraph and pic combo container */
+.container1, .container2, .container3 {
     width: 100%;
-    /* background-color: rgb(37, 179, 171); */
+    /* background-color: rgb(196, 102, 196); */
     /* margin-top: 300px; */
 }
 
 .txtcont1 {
     display: inline-block;
     width: 40%;
-    background-color: rgb(37, 179, 171);
+    background-color: rgb(90, 206, 201);
     border-radius: 20px;
-    box-shadow: 0px 5px 18px 20px rgb(37, 179, 171);
-    font-size: large;
+    box-shadow: 0px 5px 18px 20px rgb(90, 206, 201);
+    font-size: x-large;
+    /* margin: 15px 55px 0 0; */
+    margin: 3.5% 3% 0 0;
 }
+
+.img-div1, .img-div2, .img-div3 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.home-resort2, .home-resort3, .home-girlstrip {
+    width: 100%;
+    display: inline-block;
+    box-shadow: 7px 7px 10px grey;
+    border-radius: 5px;
+}
+
+/* End of container1 */
+
+
+/* Beginning of container2 */
 
 .txtcont2 {
     display: inline-block;
     width: 40%;
-    margin-left: 10%;
-    background-color: rgb(37, 179, 171);
+    margin: 2% 0 0 5%;
+    background-color: rgb(250, 159, 66);
     vertical-align: top;
     border-radius: 20px;
-    box-shadow: 0px 5px 18px 20px rgb(37, 179, 171);
-    font-size: large;
+    box-shadow: 0px 5px 18px 20px rgb(250, 159, 66);
+    font-size: x-large;
 }
 
 .home-h2 {
     font-family: 'Poller One', cursive;
 }
+/* End of container2 */
+
+
+/* Beginning of container3 */
+
+/* .home-girlstrip {
+    width: 100%;
+} */
+
+.txtcont3 {
+    display: inline-block;
+    width: 18%;
+    margin: 3% 3% 0 3%;
+    background-color: rgb(141, 214, 122);
+    vertical-align: top;
+    border-radius: 20px;
+    box-shadow: 0px 5px 18px 20px rgb(141, 214, 122);
+    font-size: larger;
+}
+
+/* End of container3 */
+
 
 .bottomTxt {
-    margin-top: 55px;
+    margin-top: 30px;
 }
+
+
+
 
 @media screen and (max-width: 548px) {
     .centered {
