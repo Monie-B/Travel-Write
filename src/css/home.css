@@ -40,9 +40,9 @@
     background-color: rgb(90, 206, 201);
     border-radius: 20px;
     box-shadow: 0px 5px 18px 20px rgb(90, 206, 201);
-    font-size: x-large;
+    font-size: xx-large;
     /* margin: 15px 55px 0 0; */
-    margin: 3.5% 3% 0 0;
+    margin: 1.7% 3% 0 0;
 }
 
 .img-div1, .img-div2, .img-div3 {
@@ -66,7 +66,7 @@
 .txtcont2 {
     display: inline-block;
     width: 40%;
-    margin: 2% 0 0 5%;
+    margin: 1% 0 0 5%;
     background-color: rgb(250, 159, 66);
     vertical-align: top;
     border-radius: 20px;

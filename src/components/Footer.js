@@ -4,7 +4,7 @@ import '../css/footer.css'
 const Footer = () => {
   return (
     <>
-      <div className='footerbg'>App created by Monica Bullock 2022</div>
+      <div className='footerbg'>Travel Write App created by Monica Bullock 2022</div>
     </>
   )
 }

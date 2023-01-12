@@ -26,11 +26,11 @@ const Home = () => {
                     Your Experience
                 </h2>
                 <p>
-                     Your travel experience will help other users get insight on things like fun iteneraries, if the food was good, whether the location has good night life nearby, if you experienced theft or even racism, etc. 
+                     Your travel experience will help other users get insight on things like fun iteneraries, if the food was good, whether the location has good night life nearby, if you experienced theft or even how you were treated, etc. 
                 </p>
             </div>
             <div className='img-div1'>
-                <img src='https://rb.gy/qefnu1' alt='resort' className='home-resort2' />
+                <img src='https://rb.gy/q4aubu' alt='resort' className='home-resort2' />
             </div>
         </div>
         <div>
