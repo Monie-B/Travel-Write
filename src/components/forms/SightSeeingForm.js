@@ -1,18 +1,19 @@
-import React from 'react';
-import '../../css/newtravelform.css'
+import React from 'react'
+import '../../css/forms css/sightseeing.css'
 
-const LocationForm = () => {
+
+const SightSeeingForm = () => {
   return (
     <>
-        <form className='location-bg'>
+        <form action='/UserProfile' method='POST' className='sight-seeing-bg'>
             <div>
                 <label>Location: </label>
                 <input type='text' required></input>
             </div>
-            <div className='formDate'>
+            {/* <div className='formDate'>
                 <label>Date: </label>
                 <input type='date' />
-            </div>
+            </div> */}
             <div>
                 <label>Description:    </label>
                 <textarea type='text' />
@@ -27,4 +28,4 @@ const LocationForm = () => {
   )
 }
 
-export default LocationForm
+export default SightSeeingForm

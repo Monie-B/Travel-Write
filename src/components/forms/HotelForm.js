@@ -1,12 +1,12 @@
 import React from 'react'
-import '../../css/newtravelform.css'
+import '../../css/forms css/hotelform.css'
 
 
 
 const HotelForm = () => {
   return (
     <>
-        <form className='formbg'>
+        <form className='hotel-bg'>
             <div>
                 <label>Name of Hotel: </label>
                 <input type='text' required></input>

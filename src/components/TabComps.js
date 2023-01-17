@@ -3,6 +3,8 @@ import 'react-tabs/style/react-tabs.css';
 import React from 'react'
 import LocationForm from './forms/LocationForm';
 import HotelForm from './forms/HotelForm';
+import SightSeeingForm from './forms/SightSeeingForm';
+import FoodForm from './forms/FoodForm';
 
 
 
@@ -28,12 +30,14 @@ const TabComps = () => {
         </TabPanel>
         <TabPanel>
           <h2>Tell Us All About The Sights!</h2>
+          <SightSeeingForm />
         </TabPanel>
         <TabPanel>
           <h2>How Was The Night Life?</h2>
         </TabPanel>
         <TabPanel>
           <h2>Let's Talk About The Food!</h2>
+          <FoodForm />
         </TabPanel>
 
       </Tabs>
